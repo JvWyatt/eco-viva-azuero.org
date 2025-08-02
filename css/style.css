@@ -1,6 +1,22 @@
-/* Estilos personalizados */
+/* Variables de color */
+:root {
+  --verde: #008000ff;
+  --verde-hover: #006400;
+}
+
+/* Clases personalizadas */
+.text-verde {
+  color: var(--verde);
+}
+.bg-verde {
+  background-color: var(--verde);
+}
+.bg-verde-hover:hover {
+  background-color: var(--verde-hover);
+}
+
+/* Hero */
 #hero-bg {
   transition: transform 0.3s ease, background 0.3s ease;
   transform-origin: center;
 }
-
