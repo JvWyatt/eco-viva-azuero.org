@@ -1,16 +1,4 @@
 /* Estilos personalizados */
-:root {
-  --verde-custom: #008000ff;
-}
-
-.bg-verde-custom {
-  background-color: var(--verde-custom);
-}
-
-.text-verde-custom {
-  color: var(--verde-custom);
-}
-
 #hero-bg {
   transition: transform 0.3s ease, background 0.3s ease;
   transform-origin: center;
